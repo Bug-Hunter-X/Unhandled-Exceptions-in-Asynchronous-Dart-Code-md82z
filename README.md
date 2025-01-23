@@ -1,0 +1,3 @@
+# Unhandled Exceptions in Asynchronous Dart Code
+
+This repository demonstrates a common error in asynchronous Dart code: unhandled exceptions during network requests.  The `fetchData` function attempts to fetch data from a remote API. While it includes error handling using a `try-catch` block, the exception is not handled effectively leading to silent failures.  The solution improves error handling by providing more informative feedback and preventing the application from unexpectedly crashing.
